@@ -14,10 +14,22 @@
 
 @interface VoiceWindow : UIWindow
 
+
+/**
+ 是否在语音中
+ */
 @property (nonatomic, assign) BOOL isVoice;
 
 + (instancetype)share;
+
+/**
+ 显示视图
+ */
 - (void)show;
+
+/**
+ 全屏
+ */
 - (void)fullScreen;
 
 @end
